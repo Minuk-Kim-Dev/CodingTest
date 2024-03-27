@@ -4,8 +4,6 @@
 
 using namespace std;
 
-
-
 vector<string> solution(vector<string> players, vector<string> callings) {
     map<string, int> playerList;
     for(int i = 0; i < players.size(); i++){
